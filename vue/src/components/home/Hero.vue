@@ -3,10 +3,10 @@
     <div class="container mx-auto flex items-center gap-12">
       <div class="flex-1">
         <p>van Nicolle Brüll</p>
-        <h1 class="max-w-lg rounded-3xl bg-white text-6xl font-bold">
+        <h1 class="max-w-lg bg-white text-6xl font-bold">
           Welkom bij
           <span class="text-green">Oog</span>
-          & Onderwijs
+          & Onderwijs<span class="text-green">.</span>
         </h1>
         <p class="max-w-md py-6 text-gray-400">
           Vanuit mijn achtergrond als medisch specialist, mijn didactische
@@ -17,7 +17,7 @@
           <a
             href="/contact"
             class="bg-green hover:bg-green/90 group flex items-center gap-2 rounded-full px-4 py-2 text-white transition-colors duration-300">
-            <span class="font-semibold">Lorem Ipsum</span>
+            <span class="font-bold">Lorem Ipsum</span>
             <Icon
               icon="material-symbols:arrow-circle-right-rounded"
               class="text-3xl transition-transform duration-300 group-hover:translate-x-2.5" />

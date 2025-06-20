@@ -1,7 +1,10 @@
 <template>
-  <section class="mt-24 border-neutral-200 bg-gray-50 py-24">
+  <section class="mt-12 border-neutral-200 bg-gray-50 pt-12 pb-16">
     <div class="container mx-auto text-center">
-      <h2 class="mb-32 text-5xl font-bold">Samenwerkingen</h2>
+      <h2 class="mb-20 text-4xl font-bold">
+        <span class="text-green">Organisaties</span>
+        waar ik mee samenwerk<span class="text-green">.</span>
+      </h2>
       <div class="relative overflow-hidden">
         <div class="slide-animate flex w-max gap-12">
           <a
@@ -13,7 +16,7 @@
             <img
               :src="affiliation.src"
               alt=""
-              class="h-20 w-auto rounded-full object-contain duration-300 hover:scale-[103%]" />
+              class="h-16 w-auto rounded-full object-contain duration-300 hover:scale-[103%]" />
           </a>
         </div>
       </div>
