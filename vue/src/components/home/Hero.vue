@@ -15,9 +15,9 @@
         </p>
         <div class="flex flex-col items-start gap-16">
           <a
-            href="/contact"
+            href="/agenda"
             class="bg-green hover:bg-green/90 group flex items-center gap-2 rounded-full px-4 py-2 text-white transition-colors duration-300">
-            <span class="font-bold">Lorem Ipsum</span>
+            <span class="font-bold">Bekijk Agenda</span>
             <Icon
               icon="material-symbols:arrow-circle-right-rounded"
               class="text-3xl transition-transform duration-300 group-hover:translate-x-2.5" />
@@ -36,7 +36,7 @@
       <img
         src="/img/header.jpg"
         alt=""
-        class="h-auto w-7/12 rounded-full object-cover" />
+        class="h-auto w-7/12 rounded-full object-cover shadow-md" />
     </div>
   </section>
 </template>

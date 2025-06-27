@@ -66,7 +66,7 @@
             style="border: 0"
             loading="lazy"
             zoomControl: 
-            class="rounded-4xl w-64 h-80 object-cover ml-24"
+            class="rounded-4xl w-64 h-80 object-cover ml-24 shadow-md"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>

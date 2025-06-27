@@ -21,7 +21,7 @@
         <img
           src="/img/header.jpg"
           alt=""
-          class="rounded-4xl w-128 h-auto object-cover" />
+          class="rounded-4xl w-128 h-auto object-cover shadow-md" />
       </div>
       <div class="rounded-4xl mt-16 flex items-center bg-gray-50 p-16 px-36">
         <div class="flex-1">
@@ -47,7 +47,7 @@
         <img
           src="/img/wie-ben-ik.jpg"
           alt=""
-          class="rounded-4xl w-86 h-96 object-cover" />
+          class="rounded-4xl w-86 h-96 object-cover shadow-md" />
       </div>
     </div>
   </section>
