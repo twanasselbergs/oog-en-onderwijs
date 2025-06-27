@@ -35,7 +35,7 @@
       <div class="flex-1 flex justify-end">
         <a
           href="#contact"
-          class="hidden lg:inline-block rounded-full bg-black px-4 py-1 text-lg text-white">
+          class="hidden lg:inline-block rounded-full bg-accent px-4 py-1 text-lg text-white">
           Contact
         </a>
         <button class="lg:hidden" @click="toggleMenu">
