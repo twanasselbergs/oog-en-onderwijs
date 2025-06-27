@@ -13,11 +13,11 @@
 
     <!-- Agenda Timeline -->
     <section class="container mx-auto py-24">
-      <h2 class="text-4xl font-bold mb-12 text-center">
+      <h2 class="text-4xl font-bold mb-12">
         <span class="text-green">Overzicht</span>
         van activiteiten
       </h2>
-      <div class="flex flex-col gap-12 max-w-3xl mx-auto">
+      <div class="flex flex-col gap-12 max-w-3xl">
         <!-- Maart -->
         <div>
           <h3
