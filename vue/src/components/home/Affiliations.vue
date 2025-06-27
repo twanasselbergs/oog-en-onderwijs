@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-12 border-neutral-200 bg-gray-50 pt-12 pb-16">
+  <section class="mt-12 bg-gray-50 pt-12 pb-16">
     <div class="container mx-auto text-center">
       <h2 class="mb-20 text-4xl font-bold">
         <span class="text-green">Organisaties</span>
