@@ -5,19 +5,17 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div class="rounded-3xl bg-gray-50 p-16 gap-8">
                <p class="text-gray-500 min-w-96 pb-12">
-              Wilt u meer informatie over de cursussen of heeft u vragen? Neem
-              dan gerust contact met mij op! U kunt mij bereiken via het
-              onderstaande e-mailadres. Ook kunt u gebruik maken van het
-              contactformulier aan de rechterzijde.
+     Als u een didactisch trainer nodig heeft maar nog niet precies weet wat de inhoud of de vorm van de workshop moet zijn neem dan gerust 
+     vrijblijvend contact met mij op. U kunt gebruik maken van onderstaand e-mailadres of het contactformulier.
             </p>
             <div class="flex items-center">
           <div class="flex-col">
-            <div class="py-4 px-4 flex flex-start gap-4">
-              <Icon
+              <div class="py-4 px-4 flex flex-start gap-4">
+                  <Icon
                 icon="material-symbols:location-on-rounded"
                 class="text-2xl text-green mt-1" />
-              <div>
-                <p class="font-bold">Address</p>
+                <div>
+                  <p class="font-bold">Address</p>
                 <p class="text-gray-500">Regio Utrecht</p>
               </div>
             </div>
@@ -114,8 +112,8 @@
           </div>
           <button
             type="submit"
-            class="mt-2 w-full md:w-auto rounded-full bg-green px-8 py-3 text-lg font-bold text-white shadow hover:bg-green/90 transition">
-            Verstuur je bericht
+            class="mt-2 w-full md:w-auto rounded-full bg-green px-8 py-3 font-bold text-white shadow hover:bg-green/90 transition">
+            Verzend uw bericht
           </button>
         </form>
       </div>
@@ -127,7 +125,16 @@
 import { ref } from "vue";
 import { Icon } from "@iconify/vue";
 
-const form = ref({
+type FormFields = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  message: string;
+  [key: string]: string;
+};
+
+const form = ref<FormFields>({
   firstName: "",
   lastName: "",
   email: "",
