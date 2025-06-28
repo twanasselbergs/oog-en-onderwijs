@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="py-32 bg-green">
+    <section class="py-24 bg-green">
       <div
         class="container mx-auto flex flex-col md:flex-row items-center justify-center gap-16">
         <div class="text-center">
