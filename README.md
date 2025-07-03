@@ -4,7 +4,6 @@
 
 - [Overview](#overview)
 - [Author(s)](#authors)
-- [License](#license)
 - [Permission](#permission)
 
 ## Overview
@@ -19,10 +18,6 @@ Oog & Onderwijs is a website developed for a client in the education sector.
 ## Author(s)
 
 - **Twan Asselbergs** - [TwanAsselbergs](https://github.com/TwanAsselbergs)
-
-## License
-
-This project is licensed under the [MIT](LICENSE) License - see the [LICENSE](LICENSE) file for details.
 
 ## Permission
 
